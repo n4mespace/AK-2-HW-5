@@ -4,13 +4,13 @@
 
 #include <hello1.h>
 
-MODULE_LICENSE("Dual BSD/GPL");
-MODULE_DESCRIPTION("AK-2 lab_5 advanced task: hello2");
-MODULE_AUTHOR("Zakharchuk IV-82");
+MODULE_LICENSE("Dual BSD/GPL\n");
+MODULE_DESCRIPTION("AK-2 lab_5 advanced task: hello2\n");
+MODULE_AUTHOR("Zakharchuk IV-82\n");
 
 static uint n = 1;
 module_param(n, uint, 0);
-MODULE_PARM_DESC(n, "How many hello to print");
+MODULE_PARM_DESC(n, "How many hellos to print\n");
 
 static int hello_init(void)
 {
